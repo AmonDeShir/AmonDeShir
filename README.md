@@ -6,11 +6,13 @@
 ## Hello there 👋
 ```rust
 let amon = AboutMe {
-    intro: "Hello, I'm Amon, a full-stack developer.",
-    favorite_langs: vec!["TypeScript", "Rust"], 
-    interests: "I love anything related to post-apo or the Great War. I also play video games (mainly Isonzo and War Thunder) and use GNU/Linux wherever I can.",
-    email: "amon@purgal.xyz",
-    discord: "@AmonDeShir",
+    intro: "Hello, I'm Amon, a passionate full-stack developer.",
+    favorite_langs: vec!["TypeScript", "Rust"],
+    interests: "I'm fascinated by post-apocalyptic themes and the history of the Great War. I enjoy playing video games, particularly Isonzo and War Thunder, and I'm an avid GNU/Linux enthusiast.",
+    contact: ContactInfo {
+        email: "amon@purgal.xyz",
+        discord: "@AmonDeShir",
+    },
 };
 ```
 ---
