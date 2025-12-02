@@ -15,6 +15,3 @@ let amon = AboutMe {
     },
 };
 ```
----
-## What I'm listening to right now 🎵:
-![Spotify](https://novatorem.purgal.xyz/api/spotify/?background_color=0d1117&border_color=ffffff)
